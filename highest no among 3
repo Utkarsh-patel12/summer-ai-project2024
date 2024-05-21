@@ -1,0 +1,8 @@
+s=0
+i=1
+while i<=3:
+    num=int(input("enter a number"))
+    if num>s:
+        s=num
+    i+=1
+print(s,' is the highest number') 
